@@ -38,3 +38,19 @@ Não deve ser possível realizar uma reserva de uma suíte com capacidade menor 
 O método ObterQuantidadeHospedes da classe Reserva deverá retornar a quantidade total de hóspedes, enquanto que o método CalcularValorDiaria deverá retornar o valor da diária (Dias reservados x valor da diária).
 Caso seja feita uma reserva igual ou maior que 10 dias, deverá ser concedido um desconto de 10% no valor da diária.
 
+
+DESAFIO 03 - CRIANDO UM SISTEMA E ABSTRAINDO UM CELULAR COM POO EM C#
+
+Você é responsável por modelar um sistema que trabalha com celulares. Para isso, foi solicitado que você faça uma abstração de um celular e disponibilize maneiras de diferentes marcas e modelos terem seu próprio comportamento, possibilitando um maior reuso de código e usando a orientação a objetos.
+
+Proposta
+Você precisa criar um sistema em .NET, do tipo console, mapeando uma classe abstrata e classes específicas para dois tipos de celulares: Nokia e iPhone. Você deve criar as suas classes de acordo com o diagrama abaixo:
+
+Diagrama classes
+https://github.com/digitalinnovationone/trilha-net-poo-desafio/blob/main/Imagens/diagrama.png
+
+Regras e validações
+A classe Smartphone deve ser abstrata, não permitindo instanciar e servindo apenas como modelo.
+A classe Nokia e Iphone devem ser classes filhas de Smartphone.
+O método InstalarAplicativo deve ser sobrescrito na classe Nokia e iPhone, pois ambos possuem diferentes maneiras de instalar um aplicativo.
+

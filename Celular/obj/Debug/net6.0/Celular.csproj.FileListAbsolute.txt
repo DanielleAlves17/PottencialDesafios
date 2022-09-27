@@ -1,0 +1,15 @@
+C:\Users\ninas\OneDrive\Documentos\Dio .net\Celular\bin\Debug\net6.0\Celular.exe
+C:\Users\ninas\OneDrive\Documentos\Dio .net\Celular\bin\Debug\net6.0\Celular.deps.json
+C:\Users\ninas\OneDrive\Documentos\Dio .net\Celular\bin\Debug\net6.0\Celular.runtimeconfig.json
+C:\Users\ninas\OneDrive\Documentos\Dio .net\Celular\bin\Debug\net6.0\Celular.dll
+C:\Users\ninas\OneDrive\Documentos\Dio .net\Celular\bin\Debug\net6.0\Celular.pdb
+C:\Users\ninas\OneDrive\Documentos\Dio .net\Celular\obj\Debug\net6.0\Celular.csproj.AssemblyReference.cache
+C:\Users\ninas\OneDrive\Documentos\Dio .net\Celular\obj\Debug\net6.0\Celular.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ninas\OneDrive\Documentos\Dio .net\Celular\obj\Debug\net6.0\Celular.AssemblyInfoInputs.cache
+C:\Users\ninas\OneDrive\Documentos\Dio .net\Celular\obj\Debug\net6.0\Celular.AssemblyInfo.cs
+C:\Users\ninas\OneDrive\Documentos\Dio .net\Celular\obj\Debug\net6.0\Celular.csproj.CoreCompileInputs.cache
+C:\Users\ninas\OneDrive\Documentos\Dio .net\Celular\obj\Debug\net6.0\Celular.dll
+C:\Users\ninas\OneDrive\Documentos\Dio .net\Celular\obj\Debug\net6.0\refint\Celular.dll
+C:\Users\ninas\OneDrive\Documentos\Dio .net\Celular\obj\Debug\net6.0\Celular.pdb
+C:\Users\ninas\OneDrive\Documentos\Dio .net\Celular\obj\Debug\net6.0\Celular.genruntimeconfig.cache
+C:\Users\ninas\OneDrive\Documentos\Dio .net\Celular\obj\Debug\net6.0\ref\Celular.dll

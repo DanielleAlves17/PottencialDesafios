@@ -54,3 +54,55 @@ A classe Smartphone deve ser abstrata, não permitindo instanciar e servindo ape
 A classe Nokia e Iphone devem ser classes filhas de Smartphone.
 O método InstalarAplicativo deve ser sobrescrito na classe Nokia e iPhone, pois ambos possuem diferentes maneiras de instalar um aplicativo.
 
+------- Desafio de projeto -------
+Para este desafio, você precisará usar seus conhecimentos adquiridos no módulo de API e Entity Framework, da trilha .NET da DIO.
+
+Contexto
+Você precisa construir um sistema gerenciador de tarefas, onde você poderá cadastrar uma lista de tarefas que permitirá organizar melhor a sua rotina.
+Essa lista de tarefas precisa ter um CRUD, ou seja, deverá permitir a você obter os registros, criar, salvar e deletar esses registros.
+A sua aplicação deverá ser do tipo Web API ou MVC, fique a vontade para implementar a solução que achar mais adequado. "Eu escolhi fazer em API já que é onde tenho melhor conhecimento."
+A sua classe principal, a classe de tarefa, deve ser a seguinte:
+
+TAREFA
++Id: Int
++Titulo: String
++Descrição: String
++Data: DateTime
++Status: Enum
+
+
+Não se esqueça de gerar a sua migration para atualização no banco de dados.
+
+Métodos esperados
+É esperado que você crie o seus métodos conforme a seguir:
+Métodos Swagger
+- GET	/Tarefa/{id}
+- PUT	/Tarefa/{id}	id
+- DELETE	/Tarefa/{id}	
+- GET	/Tarefa/ObterTodos	
+- GET	/Tarefa/ObterPorTitulo	
+- GET	/Tarefa/ObterPorData	
+- GET	/Tarefa/ObterPorStatus	
+- POST	/Tarefa
+
+Endpoints
+
+Verbo	Endpoint	Parâmetro	Body
+GET	/Tarefa/{id}	id	N/A
+PUT	/Tarefa/{id}	id	Schema Tarefa
+DELETE	/Tarefa/{id}	id	N/A
+GET	/Tarefa/ObterTodos	N/A	N/A
+GET	/Tarefa/ObterPorTitulo	titulo	N/A
+GET	/Tarefa/ObterPorData	data	N/A
+GET	/Tarefa/ObterPorStatus	status	N/A
+POST	/Tarefa	N/A	Schema Tarefa
+Esse é o schema (model) de Tarefa, utilizado para passar para os métodos que exigirem
+
+{
+  "id": 0,
+  "titulo": "string",
+  "descricao": "string",
+  "data": "2022-06-08T01:31:07.056Z",
+  "status": "Pendente"
+}
+

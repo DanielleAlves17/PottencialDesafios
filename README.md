@@ -55,12 +55,13 @@ A classe Nokia e Iphone devem ser classes filhas de Smartphone.
 O método InstalarAplicativo deve ser sobrescrito na classe Nokia e iPhone, pois ambos possuem diferentes maneiras de instalar um aplicativo.
 
 ------- Desafio de projeto -------
+
 Para este desafio, você precisará usar seus conhecimentos adquiridos no módulo de API e Entity Framework, da trilha .NET da DIO.
 
 Contexto
 Você precisa construir um sistema gerenciador de tarefas, onde você poderá cadastrar uma lista de tarefas que permitirá organizar melhor a sua rotina.
 Essa lista de tarefas precisa ter um CRUD, ou seja, deverá permitir a você obter os registros, criar, salvar e deletar esses registros.
-A sua aplicação deverá ser do tipo Web API ou MVC, fique a vontade para implementar a solução que achar mais adequado. "Eu escolhi fazer em API já que é onde tenho melhor conhecimento."
+A sua aplicação deverá ser do tipo Web API ou MVC, fique a vontade para implementar a solução que achar mais adequado. "Eu escolhi fazer em Web API já que é onde tenho melhor conhecimento."
 A sua classe principal, a classe de tarefa, deve ser a seguinte:
 
 TAREFA
